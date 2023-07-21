@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/img/chick_bg.jpg");
+    background-size: cover;
+}
+
+body:before {
+  position: absolute;
+  top: 0; left: 0;
+  bottom: 0; right: 0;
+  opacity: .7;
+}
+
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    height: 400px;
+    padding: 30px 50px;
+    background: rgba(65, 100, 34, 0.67);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+
+.logo{
+    background-image: url("../assets/img/logo2.png");
+    height: 70px;
+    width: 90px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 10px auto 20px;
+}
+
+.container input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 8px;
+    font-size: 1rem;
+    color: black;
+}
+
+.container button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(14, 176, 82);
+    font-size: 1.1rem;
+    letter-spacing: 1.4px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container button:hover{
+    background-color: #3a8f67 !important;
+}
